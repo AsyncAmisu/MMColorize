@@ -11,6 +11,7 @@
 		571CE66B2821BFCC00C2E24F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571CE66A2821BFCC00C2E24F /* ContentView.swift */; };
 		571CE66D2821BFCC00C2E24F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571CE66C2821BFCC00C2E24F /* Assets.xcassets */; };
 		571CE6702821BFCC00C2E24F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571CE66F2821BFCC00C2E24F /* Preview Assets.xcassets */; };
+		571CE6772821C05000C2E24F /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 571CE6762821C05000C2E24F /* Model */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		571CE66A2821BFCC00C2E24F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		571CE66C2821BFCC00C2E24F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		571CE66F2821BFCC00C2E24F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		571CE6762821C05000C2E24F /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Model; path = "../../sui-materials-editions-4.0/02-getting-started/projects/starter/SwiftUI/RGBullsEye/RGBullsEye/Model"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		571CE6672821BFCC00C2E24F /* MMColorize */ = {
 			isa = PBXGroup;
 			children = (
+				571CE6762821C05000C2E24F /* Model */,
 				571CE6682821BFCC00C2E24F /* MMColorizeApp.swift */,
 				571CE66A2821BFCC00C2E24F /* ContentView.swift */,
 				571CE66C2821BFCC00C2E24F /* Assets.xcassets */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				571CE6772821C05000C2E24F /* Model in Resources */,
 				571CE6702821BFCC00C2E24F /* Preview Assets.xcassets in Resources */,
 				571CE66D2821BFCC00C2E24F /* Assets.xcassets in Resources */,
 			);
