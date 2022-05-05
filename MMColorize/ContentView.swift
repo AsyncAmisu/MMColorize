@@ -19,9 +19,11 @@ struct ContentView: View {
             Text("R: ??? G: ??? B: ???")
                 .padding()
             Color(rgbStruct: guess)
-            Text("R: 204 G: 76 B: 178")
+            Text(guess.intString())
                 .padding()
-            Slider(value: .constant(0.5))
+            ColorSlider(value: $guess.red, trackColor: .red)
+            ColorSlider(value: $guess.green, trackColor: .green)
+            ColorSlider(value: $guess.blue, trackColor: .blue)
             Button("Hit me!") {
                     
             }
@@ -31,6 +33,22 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(guess: RGB(red: 0.8, green: 0.3, blue: 0.7))
+        ContentView(guess: RGB())
+    }
+}
+
+struct ColorSlider: View {
+    
+    @Binding var value: Double
+    var trackColor: Color
+    
+    var body: some View {
+        HStack {
+            Text("0")
+            Slider(value: $value)
+                .tint(trackColor)
+            Text("255")
+        }
+        .padding(.horizontal)
     }
 }
