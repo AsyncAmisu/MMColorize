@@ -11,21 +11,36 @@ struct ContentView: View {
     
     @State var game = Game()
     @State var guess: RGB
-    var target = RGB.random()
+    @State var showScore: Bool = false
+//    var target = RGB.random()
     
     var body: some View {
         VStack {
-            Color(rgbStruct: game.target)
-            Text("R: ??? G: ??? B: ???")
-                .padding()
-            Color(rgbStruct: guess)
+            ColorCircle(rgb: game.target)
+            if !showScore {
+                Text("R: ??? G: ??? B: ???")
+                    .padding()
+            } else {
+                Text(game.target.intString())
+                    .padding()
+            }
+            ColorCircle(rgb: guess)
             Text(guess.intString())
                 .padding()
             ColorSlider(value: $guess.red, trackColor: .red)
             ColorSlider(value: $guess.green, trackColor: .green)
             ColorSlider(value: $guess.blue, trackColor: .blue)
-            Button("Hit me!") {
-                    
+            Button {
+                game.check(guess: guess)
+                showScore = true
+            } label: {
+                Text("Hit me!")
+            }
+            .alert(isPresented: $showScore) {
+                Alert(title: Text("Your Score"), message: Text(String(game.scoreRound)), dismissButton: .default(Text("OK")) {
+                    game.startNewRound()
+                    guess = RGB()
+                })
             }
         }
     }

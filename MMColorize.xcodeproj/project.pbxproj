@@ -14,6 +14,7 @@
 		57894467282339500092D65B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57894466282339500092D65B /* Game.swift */; };
 		578944692823396F0092D65B /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578944682823396F0092D65B /* RGB.swift */; };
 		5789446B2823398F0092D65B /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5789446A2823398F0092D65B /* ColorExtension.swift */; };
+		578C202228246BA5004E1A99 /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C202128246BA5004E1A99 /* ColorCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		57894466282339500092D65B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		578944682823396F0092D65B /* RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB.swift; sourceTree = "<group>"; };
 		5789446A2823398F0092D65B /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		578C202128246BA5004E1A99 /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		571CE6672821BFCC00C2E24F /* MMColorize */ = {
 			isa = PBXGroup;
 			children = (
+				578C202028246B7D004E1A99 /* Views */,
 				5789446C2823399E0092D65B /* Model */,
 				571CE6682821BFCC00C2E24F /* MMColorizeApp.swift */,
 				571CE66A2821BFCC00C2E24F /* ContentView.swift */,
@@ -82,6 +85,14 @@
 				5789446A2823398F0092D65B /* ColorExtension.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		578C202028246B7D004E1A99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				578C202128246BA5004E1A99 /* ColorCircle.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 				571CE6692821BFCC00C2E24F /* MMColorizeApp.swift in Sources */,
 				578944692823396F0092D65B /* RGB.swift in Sources */,
 				5789446B2823398F0092D65B /* ColorExtension.swift in Sources */,
+				578C202228246BA5004E1A99 /* ColorCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
