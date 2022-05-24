@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		571836D7283D72D000BFBBA5 /* NeuButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571836D6283D72D000BFBBA5 /* NeuButtonStyle.swift */; };
 		571CE6692821BFCC00C2E24F /* MMColorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571CE6682821BFCC00C2E24F /* MMColorizeApp.swift */; };
 		571CE66B2821BFCC00C2E24F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571CE66A2821BFCC00C2E24F /* ContentView.swift */; };
 		571CE66D2821BFCC00C2E24F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571CE66C2821BFCC00C2E24F /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		571836D6283D72D000BFBBA5 /* NeuButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuButtonStyle.swift; sourceTree = "<group>"; };
 		571CE6652821BFCC00C2E24F /* MMColorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMColorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		571CE6682821BFCC00C2E24F /* MMColorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMColorizeApp.swift; sourceTree = "<group>"; };
 		571CE66A2821BFCC00C2E24F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				578C202128246BA5004E1A99 /* ColorCircle.swift */,
+				571836D6283D72D000BFBBA5 /* NeuButtonStyle.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				57894467282339500092D65B /* Game.swift in Sources */,
 				571CE6692821BFCC00C2E24F /* MMColorizeApp.swift in Sources */,
 				57280A49282896DB00E7BEBA /* ViewExtension.swift in Sources */,
+				571836D7283D72D000BFBBA5 /* NeuButtonStyle.swift in Sources */,
 				578944692823396F0092D65B /* RGB.swift in Sources */,
 				5789446B2823398F0092D65B /* ColorExtension.swift in Sources */,
 				578C202228246BA5004E1A99 /* ColorCircle.swift in Sources */,
