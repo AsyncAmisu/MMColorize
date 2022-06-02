@@ -27,7 +27,7 @@ struct NeuButtonStyle: ButtonStyle {
                             .fill(Color.element)
                             .northWestShadow()
                     }
-                }g
+                }
             )
     }
 }
